@@ -1,12 +1,13 @@
 {
-  "name": "cv-app",
-  "version": "0.1.0",
+  "name": "my-cv-site",
+  "version": "1.0.0",
   "private": true,
+  "author": "Shubham Kumar",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "icon": "svgr svgs -d components/svgs --icon --replace-attr-values \"#fff=currentColor\""
+    "icon": "svgr svgs -d components/svgs --icon --replace-attr-values '\\\"#fff=currentColor\\\"'"
   },
   "dependencies": {
     "@svgr/cli": "^5.5.0",
